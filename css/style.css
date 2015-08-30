@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 18px;
+  float: left;
+  margin-left: 12px;
+  margin-top: 1em;
+  color: blue;
+  opacity: 0.6;
+}
+
+h2{
+  padding: 14px 0 0 0;
+  font-size: 16px;
+  text-align: center;
+  color: blue;
+  opacity: 0.6;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+nav{
+  float: right;
+  margin: 1em;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  margin: 0 20px 0 0;
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.header{
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  background-color: peru;
+  position: fixed;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.home{
+  margin: 0;
+  padding: 0;
+  background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') 50% 0 no-repeat fixed;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.about{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg') 50% 0 no-repeat fixed;
+}
+
+.portafolio{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg')fixed;
+}
+
+.contact{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: url('https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg');
+  position: relative;
+}
+
+.footer{
+  background-color: peru;
+  width: 100%;
+  height: 50px;
+  margin-top: -64px;
+  opacity: 0.6;
+}
+
+.div-title{
+  position: relative;
+  text-align: center;
+  top: 30%;
+}
+.lbl-title{
+  position: relative;
+  font-size: 1.6rem;
+}
+aside{
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.div-about{
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10%;
+}
+.div-description{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5%;
+}
+.div-title-description{
+  display: block;
+}
+
+.div-text-description{
+  display: block;
+}
+
+.lbl-title-description{
+  font-size: 20px;
+}
+
+.div-photo{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: right;
+  right: 4em;
+}
+
+.img-description{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.div-porta{
+  position: relative;
+  text-align: center;
+}
+
+.div-porta-description{
+  position: relative;
+  top: 10em;
+}
+
+.p-portafolio{
+}
